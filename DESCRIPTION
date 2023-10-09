@@ -1,0 +1,23 @@
+Package: avl.osm
+Title: Bases de dades de l'Acadèmia Valenciana de la Llengua
+Version: 0.0.1
+Authors@R: 
+    person("Joan", "Maspons", , "joanmaspons@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-2286-8727"))
+Maintainer: Joan Maspons <joanmaspons@gmail.com>
+Description: Conté el Corpus Toponímic Valencià.
+URL: https://github.com/OSM-Catalan/osm.avl
+BugReports: https://github.com/OSM-Catalan/osm.avl/issues
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    pdftools
+Encoding: UTF-8
+Language: ca
+LazyData: true
+LazyDataCompression: xz
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+X-schema.org-keywords: AVL, Acadèmia Valenciana de la Llengua,
+    open street map, openstreetmap, OSM, topònims, català, valencià
+License: GPL (>= 3)
