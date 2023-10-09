@@ -101,8 +101,18 @@ sel_mun <- match(sense_resultats, names(avl_ctv))
 
 sum(sapply(osm_CTVL, nrow))
 
+osm_CTVL <- lapply(osm_CTVL, function(x) {
+  x[, sapply(x, class) == "character"] <- lapply(x[, sapply(x, class) == "character"], function(y) {
+    Encoding(y) <- "UTF-8"
+    y
+  })
+  x
+})
+
 # usethis::use_data(osm_CTVL, overwrite = TRUE)
 load("data/osm_CTVL.rda", verbose = TRUE) # osm_CTVL
+# openxlsx::write.xlsx(osm_CTVL, file = "data-raw/osm_CTVL.xlsx")
+
 
 ### Uneix en una taula i afegeix dades de municipi ----
 osm_CTV_munL <- mapply(function(x, municipi) {
@@ -367,6 +377,7 @@ avl_pendents2 <- lapply(avl_ctv, function(x) x[!rownames(x) %in% osm_CTV_aprox$`
 # TODO: seleccionar topònims en valencià ----
 osm_CTVL$`ALCÚDIA DE VEO`
 osm_CTV_aproxL$`ALCÚDIA DE VEO`
+
 
 ## Conclusions ----
 nrow(osm_CTV) # Elements d'OSM coincidents
