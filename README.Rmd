@@ -1,0 +1,28 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# avl.osm <img src='man/figures/avl-osm_logo.png' align="right" height=110/>
+
+<!-- badges: start -->
+<!-- [![pre-commit](https://github.com/OSM-Catalan/avl.osm/actions/workflows/pre-commit.yaml/badge.svg)](https://github.com/OSM-Catalan/avl.osm/actions/workflows/pre-commit.yaml) -->
+<!-- [![R-CMD-check](https://github.com/OSM-Catalan/avl.osm/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/OSM-Catalan/avl.osm/actions/workflows/R-CMD-check.yaml) -->
+<!-- [![test-coverage](https://github.com/OSM-Catalan/avl.osm/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/OSM-Catalan/avl.osm/actions/workflows/test-coverage.yaml) -->
+<!-- badges: end -->
+
+`avl.osm` és un repositori que serveix per coordinar la col·laboració entre
+l'[Acadèmia Valenciana de la Llengua](https://www.avl.gva.es) (AVL) i [OpenStreetMap](https://openstreetmap.org) (OSM)
+arran de 
+l'[autoritzada la reutilització de les dades de l'AVL](https://wiki.openstreetmap.org/wiki/File:AVL_autoritza.jpg).
+
