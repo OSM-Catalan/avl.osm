@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# avl.osm <img src='man/figures/avl-osm_logo.png' align="right" height=110/>
+# avl.osm <a href="https://osm-catalan.github.io/avl.osm"><img src='man/figures/logo.svg' align="right" height=110 alt="Web del projecte"/></a>
 
 <!-- badges: start -->
 <!-- [![pre-commit](https://github.com/OSM-Catalan/avl.osm/actions/workflows/pre-commit.yaml/badge.svg)](https://github.com/OSM-Catalan/avl.osm/actions/workflows/pre-commit.yaml) -->

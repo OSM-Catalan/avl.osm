@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# avl.osm <img src='man/figures/avl-osm_logo.png' align="right" height=110/>
+# avl.osm <a href="https://osm-catalan.github.io/avl.osm"><img src='man/figures/logo.svg' align="right" height=110 alt="Web del projecte"/></a>
 
 <!-- badges: start -->
 <!-- [![pre-commit](https://github.com/OSM-Catalan/avl.osm/actions/workflows/pre-commit.yaml/badge.svg)](https://github.com/OSM-Catalan/avl.osm/actions/workflows/pre-commit.yaml) -->
@@ -11,6 +11,6 @@
 
 `avl.osm` és un repositori que serveix per coordinar la col·laboració
 entre l’[Acadèmia Valenciana de la Llengua](https://www.avl.gva.es)
-(AVL) i [OpenStreetMap](https://openstreetmap.org) (OSM) un cop
-[autoritzada la reutilització de les dades de
+(AVL) i [OpenStreetMap](https://openstreetmap.org) (OSM) arran de
+l’[autoritzada la reutilització de les dades de
 l’AVL](https://wiki.openstreetmap.org/wiki/File:AVL_autoritza.jpg).
