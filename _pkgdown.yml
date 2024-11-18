@@ -1,4 +1,6 @@
 url: https://osm-catalan.github.io/avl.osm/
 template:
   bootstrap: 5
-
+lang: ca
+deploy:
+  install_metadata: true
