@@ -4,3 +4,7 @@ template:
 lang: ca
 deploy:
   install_metadata: true
+reference:
+- title: "Bases de dades"
+  contents:
+  - has_concept("dades")
