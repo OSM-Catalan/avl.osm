@@ -1,13 +1,14 @@
 Package: avl.osm
 Title: Bases de dades de l'Acadèmia Valenciana de la Llengua
-Version: 0.0.2
+Version: 0.0.3
 Authors@R: 
     person("Joan", "Maspons", , "joanmaspons@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-2286-8727"))
 Maintainer: Joan Maspons <joanmaspons@gmail.com>
 Description: Conté el Corpus Toponímic Valencià.
 License: GPL (>= 3)
-URL: https://github.com/OSM-Catalan/osm.avl, https://osm-catalan.github.io/avl.osm/
+URL: https://github.com/OSM-Catalan/osm.avl,
+    https://osm-catalan.github.io/avl.osm/
 BugReports: https://github.com/OSM-Catalan/osm.avl/issues
 Depends: 
     R (>= 2.10)
