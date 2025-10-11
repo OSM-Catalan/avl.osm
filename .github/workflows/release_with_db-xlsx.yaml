@@ -47,7 +47,7 @@ jobs:
 
           for (i in seq_along(d)) {
             if (!is.data.frame(d[[i]]) && !all(sapply(d[[i]], is.data.frame))) {
-              message(names(d)[i], " is not a data.frame.")
+              message(names(d)[i], " is not a data.frame or a list of data.frames.")
               next
             }
 
