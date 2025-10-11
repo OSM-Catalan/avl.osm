@@ -32,7 +32,7 @@ jobs:
         datasets <- data(package = pkg_name)
         object_names <- datasets$results[, "Item"]
         object_names <- object_names[datasets$results[, "Title"] != ""]
-        message("Data frames found: ", length(object_names))
+        message("Documented data objects found: ", length(object_names))
 
         if (length(object_names) > 0) {
           d <- lapply(object_names, function(x) {
